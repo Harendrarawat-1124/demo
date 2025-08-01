@@ -35,10 +35,16 @@
     }
 
     nav {
+      height: 50px;
+      width: 100%;
       background-color: #7752cd;
       text-align: center;
+      display: flex;
+      flex-direction: row;
+      align-items:center;
       padding: 10px 0;
-      position: sticky;
+      justify-content: center;
+      position:fixed;
       top: 0;
       z-index: 1;
     }
@@ -183,7 +189,7 @@
   <main>
     <!-- Home Section -->
     <div id="home" class="box">
-      <img src="PROFILE.jpg" alt="Profile Image">
+      <img src="Screenshot 2025-02-23 103359.png" alt="Profile Image">
       <h2>HARENDRA SINGH RAWAT</h2>
     </div>
 
@@ -232,10 +238,10 @@
       <h2>INQUIRY</h2>
       <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required placeholder="NAME">
+        <input type="text" id="name" name="name" required placeholder="Name">
 
         <label for="number">Number:</label>
-        <input type="number" id="number" name="number" required placeholder="PHONE NUMBER">
+        <input type="number" id="number" name="number" required placeholder="NUMBER">
 
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" required placeholder="EMAIL">
